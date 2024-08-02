@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #6c65cd;
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 1em;
+}
+
+input, textarea, select {
+    width: 50%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+button {
+    background-color: #6c65cd;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+button#cancelButton {
+    background-color: #f44336;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+form {
+    margin-top: 2em;
+}
+
+#productList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#productList li {
+    padding: 0.5em 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#orderSummary {
+    margin-top: 1em;
+}
+
+#thankYouSection {
+    text-align: center;
+    padding: 2em;
+}
